@@ -4,7 +4,7 @@ import styles from './Comments.module.css'
 export default function Comments() {
     return (
         <div className={styles.comments}>
-            <img src="https://unsplash.com/pt-br/s/fotografias/random-people" alt="" />
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Profile-720.png" alt="" />
 
             <div className={styles.commentsBox}>
                 <div className={styles.commentsContent}>
@@ -12,12 +12,12 @@ export default function Comments() {
                         <div className={styles.authorAndTime}>
                             <strong>Técnico do Projeto</strong>
                             <time title='02/04/2024' dateTime='01/04/2024'>Publicado a 1 hora</time>
-
-                            <div>
-                                <button>Excluir Comentário</button>
-                                <Trash />
-                            </div>
                         </div>
+                        <div>
+                        <button title='excluir comentário '><Trash /></button>
+                                
+                            </div>
+                            
                     </header>
                     <p>Muito bom. Parabéns pela realização do curso!</p>
                 </div>
@@ -25,7 +25,7 @@ export default function Comments() {
                 <footer>
                     <button>
                         <ThumbsUp />
-                        Gostei
+                        Gostei <span> • 20</span>
                     </button>
                 </footer>
             </div>

@@ -1,10 +1,10 @@
 
 import './Global.styles.css'
-import styles from './components/App.module.css'
-import { Header } from './components/Header.jsx'
-import Sidebar from './components/Sidebar.jsx'
-import { Posts } from './components/Posts.jsx'
-import Comments from './components/Comments.jsx'
+import styles from './App.module.css'
+import Header  from './Header.jsx'
+import Sidebar from './Sidebar.jsx'
+import { Posts } from './Posts.jsx'
+
 
 
 function App() {
@@ -18,12 +18,10 @@ function App() {
 
 
           <main>
-            <Posts
-            />
-            <Posts 
-            />
+            <Posts/>
+            <Posts />
 
-            <Comments/>
+         
           </main>
         </div>
       </div>

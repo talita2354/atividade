@@ -15,7 +15,7 @@ function Sidebar(){
 
            <footer>
                
-               <a href="#" pencil>Editar o seu perfil</a>
+               <a href="#">Editar o seu perfil</a>
                
            </footer>
                       
